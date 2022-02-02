@@ -1,0 +1,106 @@
+body {
+    background-color:linen;
+    margin:0;
+}
+
+/**
+.header {
+    margin-left:auto;
+    margin-right:auto;
+}
+i also tried align-content: center and it didn't work**/ 
+
+
+h1 {
+    color:darkslategrey;
+    font-size: 80px;
+    display: inline;
+    font-family:Apple Chancery, cursive;
+}
+
+img.logo {
+    display: inline;
+    height: 110px;
+    padding-top: 20.15px;
+    transform: rotate(15deg);
+}
+
+nav {
+    width:100%;
+    text-align:center;
+    /**centers the li horizontally**/
+}
+
+.menu {
+    list-style-type:none;
+    background-color:rosybrown;
+    height:50px;
+    padding:10px;
+    margin:10px 0px 0px 0px;
+}
+
+.menu li {
+    display: inline-block;
+    text-transform:uppercase;
+    padding: 10px 20px 10px 20px; 
+    /**spreads the li out horizontally 
+    and puts equal distances on top/bottom
+    of text **/
+    font-size:1.2em;
+    color:black;
+}
+
+.menu a {
+    color:white;
+    text-decoration:none;
+}
+
+.menu a:hover {
+    background-color:grey;
+    padding-block:20px;
+    /** -block holds the li in place when a 
+    link is hovered over **/
+}
+
+  .container { 
+      display:flex;
+      justify-content:space-evenly;
+      padding:70px;
+  }
+  
+  .main {
+      background-color:white;
+      max-width:max-content;
+      max-height:max-content;
+      padding:40px;
+      margin:30px;
+      text-align:center;
+      font-size:1.7em;
+  }
+
+  .sidebar {
+     
+      background-color:rosybrown;
+      width:30%;
+      max-height:max-content;
+      padding:40px;
+      margin:30px;
+      text-align:center;
+  }
+
+h3 {
+    font-size:2em;
+}
+
+h2 {
+    font-family:Marker Felt, fantasy;
+    font-size:3em;
+    color:darkslategrey;
+}
+
+.footer-container {
+    display:flex;
+    background-color:rosybrown;
+    padding:5px;
+    justify-content:space-around;
+}
