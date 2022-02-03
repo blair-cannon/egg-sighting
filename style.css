@@ -112,3 +112,9 @@ h2 {
     color:blue;
     text-decoration:underline;
 }
+
+.container-about {
+    display:flex;
+    margin:50px;
+    
+}
