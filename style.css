@@ -3,49 +3,35 @@ body {
     margin:0;
 }
 
-/**
-.header {
-    margin-left:auto;
-    margin-right:auto;
-}
-i also tried align-content: center and it didn't work**/ 
-
-
 h1 {
     color:darkslategrey;
     font-size: 80px;
-    display: inline;
+     display: inline; 
     font-family:Apple Chancery, cursive;
 }
 
 img.logo {
-    display: inline;
+   /** display: inline; **/
     height: 110px;
     padding-top: 20.15px;
     transform: rotate(15deg);
 }
 
 nav {
-    width:100%;
-    text-align:center;
-    /**centers the li horizontally**/
-}
-
-.menu {
     list-style-type:none;
     background-color:rosybrown;
     height:50px;
     padding:10px;
     margin:10px 0px 0px 0px;
+    text-align:center;
+    /** centers text horizontally **/
 }
 
 .menu li {
     display: inline-block;
     text-transform:uppercase;
-    padding: 10px 20px 10px 20px; 
-    /**spreads the li out horizontally 
-    and puts equal distances on top/bottom
-    of text **/
+    padding: 0px 40px; 
+    /**spreads the li out horizontally **/
     font-size:1.2em;
     color:black;
 }
@@ -57,36 +43,31 @@ nav {
 
 .menu a:hover {
     background-color:grey;
-    padding-block:20px;
-    /** -block holds the li in place when a 
+    padding-block:23px;
+    /** padding-block holds the li in place when a 
     link is hovered over **/
 }
 
   .container { 
       display:flex;
-      justify-content:space-evenly;
-      padding:70px;
-  }
+      padding: 70px;
+      max-height: max-content;
+      padding:40px;
+      text-align:center;
+}
   
   .main {
       background-color:white;
-      max-width:max-content;
-      max-height:max-content;
-      padding:40px;
-      margin:30px;
-      text-align:center;
+      width: 70%;
+      margin:30px; 
       font-size:1.7em;
-  }
+}
 
   .sidebar {
-     
       background-color:rosybrown;
       width:30%;
-      max-height:max-content;
-      padding:40px;
       margin:30px;
-      text-align:center;
-  }
+}
 
 h3 {
     font-size:2em;
